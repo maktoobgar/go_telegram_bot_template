@@ -45,6 +45,8 @@ func Run() {
 	// Say Hi To Developer
 	HelloDeveloper(b)
 
+	fmt.Println("Bot is up and running...")
+
 	// Start Bot
 	b.Start()
 }
