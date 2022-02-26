@@ -1,0 +1,21 @@
+databases:
+  # Postgres Example
+  # - name: "main"
+  #   type: "postgres"
+  #   username: "postgres"
+  #   password: "123456789"
+  #   db_name: "project_db"
+  #   host: "127.0.0.1"
+  #   port: 5432
+  #   ssl_mode: "disable"
+  #   time_zone: "Asia/Tehran"
+  #   charset: "utf8mb4"
+  - type: "sqlite3"
+    name: "main"
+    db_name: "project.db"
+
+bot_token: "fill_me_please"
+developer_id: "fill_me_please"
+
+# For more example see build/config/config.yaml config file
+# The structure for this config file is in internal/config/config.go

@@ -1,0 +1,19 @@
+# env
+
+.env
+env.yaml
+env.yml
+env
+
+# go
+
+vendor
+go.sum
+
+# vscode
+
+.vscode
+
+# database
+*.db
+dbconfig.yml
