@@ -12,17 +12,23 @@ Don't forget to read [CONTRIBUTING](/CONTRIBUTING.md) file to know about how to 
 
 ## Quick Start
 
-1. Copy and paste these lines in your terminal when you're inside project root directory:
-    * ```bash
-        cp dbconfig_example.yml dbconfig.yml
-        cp env_example.yml env.yml
+1. Install Dependencies:
+   * ```
+     go get -v github.com/rubenv/sql-migrate/...
+     go mod tidy
+     ```
+   * **Note**: For migrations you most likely need `sql-migrate`.
+2. Copy and paste these lines in your terminal when you're inside project root directory:
+   * ```bash
+      cp dbconfig_example.yml dbconfig.yml
+      cp env_example.yml env.yml
       ```
-    * Those example files(env_example.yml and dbconfig_example.yml) have ready configurations for a quick start for the project.
-2. Change value of `bot_token` and `developer_id` by your own bot token and your own id which you can get from [userinfobot](http://t.me/userinfobot).
-3. How to run:
-  * ```bash
-    go run ./cmd/main/main.go
-    ```
+   * Those example files(env_example.yml and dbconfig_example.yml) have ready configurations for a quick start for the project.
+3. Change value of `bot_token` and `developer_id` by your own bot token and your own id which you can get from [userinfobot](http://t.me/userinfobot).
+4. How to run:
+   * ```bash
+     go run ./cmd/main/main.go
+     ```
 
 ## Clean Structure
 
